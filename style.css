@@ -1,0 +1,86 @@
+ 
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ body{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+ }
+
+
+ .items-style{
+     text-align: center;
+     margin: 7em auto 17em;
+ }
+
+ .btn{
+     padding: 15px 20px;
+     font-size: 30px;
+     background: teal;
+     color: #fff;
+     border: none;
+     border-radius: 15px;
+ }
+
+ .go{
+    padding: 5px 15px 10px;
+    font-size: 26px;
+    background: teal;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    
+    
+ }
+
+
+.my-name{
+    font-size: 40px;
+    margin-top: 1em;
+}
+
+.sponsors-logo :nth-child(2){
+    width: 10%;
+    margin: 15px;
+}
+
+.sponsors-logo :nth-child(1){
+    width: 5%;
+}
+
+.sponsors-logo :nth-child(3){
+    width: 5%;
+}
+
+.sponsors-logo{
+    text-align: end;
+}
+
+
+
+@media (max-width: 750px){
+    .sponsors-logo :nth-child(2){
+        width: 20%;
+        margin: 11px;
+    }
+    
+    .sponsors-logo :nth-child(1){
+        width: 10%;
+    }
+    
+    .sponsors-logo :nth-child(3){
+        width: 10%;
+    }
+    
+    
+    .go{
+    margin-top: 5em;
+    
+    
+ }
+
+
+}

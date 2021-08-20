@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 30px;
+    font-size: 19px;
+}
+
+.name-img{
+    width: 15%;
+    height: 180px;
+    border-radius: 80%;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-size: 30px;
+    opacity: 0.9;
+
+}
+
+.profession{
+    font-weight: 700;
+    opacity: 0.4;
+    margin-bottom: 4px;
+}
+
+.name-text{
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+.name-section{
+    text-align: center;
+    margin: 1em auto;
+}
+
+
+/**  intro sec starts**/
+
+.intro-text{
+    text-align: center;
+    line-height: 25px;
+    
+}
+
+.my-intro{
+    margin: 1em auto 0;
+    border-top: 1px solid rgb(207, 207, 207);
+    padding: 1em 0;
+}
+
+
+/** experience **/
+
+.exper-list{
+    list-style: none;
+    margin: 5px 0;
+}
+
+.experience-sec{
+    border-top: 1px solid rgb(207, 207, 207);
+    padding: 1em 0;
+    
+}
+
+/** lang-sec**/
+
+
+.lang-list{
+    display: inline;
+    list-style: none;
+    background-color: rgb(73, 154, 230);
+    padding: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+    color: rgb(223, 228, 241);
+}
+
+.lang-title{
+    margin-bottom: 25px;
+}
+
+.language-sec{
+    border-top: 1px solid rgb(207, 207, 207);
+    padding: 1em 0 2em;
+}
+
+/** certification sec**/
+
+.cert-text{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.cert-sec{
+    border-top: 1px solid rgb(207, 207, 207);
+    padding: 1em 0;
+
+}
+/** sponsors-sec**/
+.sponsors-logo :nth-child(2){
+    width: 10%;
+    margin: 15px;
+}
+
+.sponsors-logo :nth-child(1){
+    width: 5%;
+}
+
+.sponsors-logo :nth-child(3){
+    width: 5%;
+}
+
+.sponsors-logo{
+    text-align:end;
+    border-top: 1px solid rgb(207, 207, 207);
+    padding: 2em 0;
+
+}
+
+
+
+.back{
+    padding: 15px 20px;
+     background: rgb(73, 154, 230);
+     color:rgb(223, 228, 241);
+     border: none;
+     border-radius: 15px;
+     text-decoration: none;
+}
+
+
+
+@media (max-width: 750px){
+    body{
+        font-size: 16px;
+    }
+    
+    .name-img{
+        width: 25%;
+        height: 100px;
+        border-radius: 80%;
+        margin-bottom: 10px;
+    }
+
+    .sponsors-logo :nth-child(2){
+        width: 15%;
+    }
+    
+    .sponsors-logo :nth-child(1){
+        width: 10%;
+    }
+    
+    .sponsors-logo :nth-child(3){
+        width: 10%;
+    }
+
+    .name{
+        font-size: 26px;
+        opacity: 0.9;
+    
+    }
+}

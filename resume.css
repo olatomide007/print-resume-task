@@ -7,7 +7,7 @@ body{
     background-color: #eee;
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .name-img{
@@ -18,12 +18,13 @@ body{
 }
 
 .name{
-    font-size: 30px;
+    font-size: 31px;
     opacity: 0.9;
 
 }
 
 .profession{
+    font-size: 19px;
     font-weight: 700;
     opacity: 0.4;
     margin-bottom: 4px;
@@ -75,10 +76,11 @@ body{
     display: inline;
     list-style: none;
     background-color: rgb(73, 154, 230);
-    padding: 15px;
+    padding: 16px;
     font-weight: 700;
     margin-right: 20px;
     color: rgb(223, 228, 241);
+    text-align: center;
 }
 
 .lang-title{
@@ -175,9 +177,10 @@ body{
 
     .lang-list{
     display: block;
-    width: 28%;
+    width: 25%;
     text-align: center;
     margin-top: 1em;
+    padding: 10px;
     }
 
     .cert-text{
@@ -185,6 +188,11 @@ body{
         display: flex;
         justify-content: space-between;
         margin: 5px 0;
+    }
+
+    .profession{
+        font-size: 16px;
+        
     }
 
 }

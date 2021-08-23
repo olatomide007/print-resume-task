@@ -6,6 +6,7 @@
 
  body{
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding: 0 20px;
      
  }
 
@@ -79,9 +80,30 @@
     .go{
     margin-top: 5em;
     font-size: 20px;
-    
+    }
     
  }
 
+ @media (max-width: 400px){
+    .btn{
+       font-size: 16px;
+    }
 
-}
+    .items-style{
+        
+        margin: 5em auto 16em;
+    }
+ 
+    .my-name{
+        font-size: 30px;
+        
+    }
+
+    .go{
+       
+        font-size: 15px;
+        }
+
+ }
+
+

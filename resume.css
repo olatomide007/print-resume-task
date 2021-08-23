@@ -11,8 +11,8 @@ body{
 }
 
 .name-img{
-    width: 15%;
-    height: 180px;
+    width: 25%;
+    height: 250px;
     border-radius: 80%;
     margin-bottom: 10px;
 }
@@ -140,14 +140,14 @@ body{
 
 
 
-@media (max-width: 750px){
+@media (max-width: 680px){
     body{
         font-size: 14px;
     }
     
     .name-img{
-        width: 25%;
-        height: 85px;
+        width: 35%;
+        height: 150px;
         border-radius: 100%;
         margin-bottom: 10px;
     }
@@ -175,13 +175,7 @@ body{
     
     }
 
-    .lang-list{
-    display: block;
-    width: 25%;
-    text-align: center;
-    margin-top: 1em;
-    padding: 15px;
-    }
+    
 
     .cert-text{
         list-style: none;
@@ -195,4 +189,27 @@ body{
         
     }
 
+}
+
+
+@media(max-width: 400px){
+    .name-img{
+        width: 35%;
+       height: 90px;
+    }
+
+    .lang-list{
+            display: block;
+            width: 50%;
+            text-align: center;
+            margin-top: 1em;
+            padding: 15px 0;
+            }
+        
+        
+        
+
+        .back{
+            padding: 10px 7px;
+        }
 }
